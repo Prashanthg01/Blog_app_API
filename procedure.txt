@@ -1,0 +1,59 @@
+I have used python 3.10
+//////////////////////////////////
+Login URL:
+/accounts/login/
+
+testing logins:
+Username: User4
+Email: prashanth4@gmail.com
+Password: test@123
+
+Username: User5
+Email: prashanth5@gmail.com
+Password: test@123
+////////////////////////////////////
+
+Logout URL:
+/accounts/logout/
+
+Registration URL:
+/accounts/registration/
+
+Current User:
+/accounts/User
+
+View all blog posts:
+/api/blogposts/
+
+"""pagination included [5]"""
+
+///////////////////////////////////////////////
+Create new blog post:
+/api/blogposts/create/
+
+"""Make sure logged in and write the blog in JSON formate"""
+Example data:
+{
+  "title": "Write the title",
+  "message": "write the body"
+}
+////////////////////////////////////////////////
+Update existing BlogPost:
+/api/blogposts/update/1/
+/api/blogposts/update/2/
+
+"""Make sure logged in and write the in JSON formate"""
+Example data:
+{
+  "author": "4",
+  "title": "Write the title",
+  "message": "write the body"
+}
+
+Example data:
+{
+  "author": "1",
+  "title": "Write the title",
+  "message": "write the body"
+}
+////////////////////////////////////////////////////
